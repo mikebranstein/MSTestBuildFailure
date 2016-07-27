@@ -17,6 +17,9 @@ The "Step 1" section establishes several variables used throughout the MS Build 
 
 The "Step 2" section runs MS Test after the "build" portion of the script runs. If the output of the MS Test run fails, then the build reports a failure.
 
+# MS Test Run Results
+Oh yeah. The MS Test run results are stored in a folder named TestResults under the BuildFailure.Test folder after every build. The MS Build test deletes these with each build.
+
 # Errata
 I've tested this in Visual Studio 2015. If it doesn't work in other versions, let me know.
 
